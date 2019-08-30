@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style-small.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>GeoMeridian</title>
+</head>
+<body>
+
+    <div id="loader-wrapper"></div>
+
+    <div class="main-wrapper">
+        <div id="resizable" class="main-content-wrapper side-bar-none-transition">
+            <header>
+                <div class="top-header">
+                    <a href="#" id="logo">
+                        <img src="img/logo-image.png" alt="" />
+                    </a>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="toggle-block">
+                        <div class="language-wrap">
+                            <a href="#" class="active">Ру</a>
+                            <a href="#">En</a>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">О проекте</a></li>
+                                <li><a href="#">Помощь</a></li>
+                                <li><a href="#">Партнерство и реклама</a></li>
+                                <li><a href="#">В избраное</a></li>
+                            </ul>
+                        </nav>
+                        <div class="social-wrapper">
+                            <a href="#"><img src="img/facebook.svg" alt="" /></a>
+                            <a href="#"><img src="img/twitter-logo-silhouette.svg" alt="" /></a>
+                            <a href="#"><img src="img/vk-social-network-logo.svg" alt="" /></a>
+                            <a href="#"><img src="img/instagram.svg" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="search-wrapper">
+                <div class="input-wrapper">
+                    <input id="tags" type="text" name="" placeholder="Куда хотите поехать?">
+                    <div class="search-info-example">
+                        <p>Попробуйте ввести свой первый поисковой запрос прямо сейчас!</p>
+                        <div class="empty-lg-25 empty-xs-15"></div>
+                        <p>Вы можете искать по:</p>
+                        <ul>
+                            <li>страны</li>
+                            <li>города</li>
+                            <li>достопримечательности</li>
+                            <li>маршруты</li>
+                            <li>темы</li>
+                        </ul>
+                    </div>
+                    <div class="search-info-error">
+                        <div class="title">
+                            К сожалению, ничего не найдено :-(
+                        </div>
+                        <div class="empty-lg-25 empty-xs-15"></div>
+                        <p>Попробуйте:</p>
+                        <ul>
+                            <li>проверить, нет ли ошибок в запросе</li>
+                            <li>переформулировать запрос</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="close-button"></div>
+
+            <div class="content custom-scroll-bar">
+                <div class="space"></div>
+
+                <div class="section-wrapper">
+                    <div class="section">
+                        <div class="block-title type2 text-left">
+                            <a href="#" class="link"><span></span></a>
+                            <div class="title">
+                                Европа - Интересные темы
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                </div>
+                
+                <div class="section-wrapper">
+                    <div class="section">
+                        <div class="shortcode-type6">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type6-img7.jpg);"></div>
+                            </a>
+                            <div class="content-info">
+                                <a href="#" class="title">
+                                    Лучшие достопримечательности Рима
+                                </a>
+                                <div class="content-list">
+                                    <div class="item review">22 <span class="v-desc">мест</span> <span class="v-mobile">мест</span></div>
+                                    <div class="item landscape">56 <span class="v-desc">фото</span> <span class="v-mobile">фото</span></div>
+                                </div>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Подробнее</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <div class="informer-link open-share">Поделиться в соцсетях</div>
+                                        <div class="share-wrapp type2">
+                                            <div class="share-cell">
+                                                <div class="share-title">
+                                                    поделиться
+                                                </div>
+                                                <a href="#" class="item fb"><img src="img/facebook2.svg" alt=""></a>
+                                                <a href="#" class="item vk"><img src="img/vk-social-network-logo2.svg" alt=""></a>
+                                                <a href="#" class="item in"><img src="img/instagram2.svg" alt=""></a>
+                                                <a href="#" class="item tw"><img src="img/twitter-logo-silhouette2.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shortcode-type6">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type6-img8.jpg);"></div>
+                            </a>
+                            <div class="content-info">
+                                <a href="#" class="title">
+                                    Православные храмы Москвы
+                                </a>
+                                <div class="content-list">
+                                    <div class="item review">36 <span class="v-desc">мест</span> <span class="v-mobile">мест</span></div>
+                                    <div class="item landscape">72 <span class="v-desc">фото</span> <span class="v-mobile">фото</span></div>
+                                </div>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Подробнее</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <div class="informer-link open-share">Поделиться в соцсетях</div>
+                                        <div class="share-wrapp type2">
+                                            <div class="share-cell">
+                                                <div class="share-title">
+                                                    поделиться
+                                                </div>
+                                                <a href="#" class="item fb"><img src="img/facebook2.svg" alt=""></a>
+                                                <a href="#" class="item vk"><img src="img/vk-social-network-logo2.svg" alt=""></a>
+                                                <a href="#" class="item in"><img src="img/instagram2.svg" alt=""></a>
+                                                <a href="#" class="item tw"><img src="img/twitter-logo-silhouette2.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shortcode-type6">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type6-img9.jpg);"></div>
+                            </a>
+                            <div class="content-info">
+                                <a href="#" class="title">
+                                    Лучшие виды для instagram блоггеров
+                                </a>
+                                <div class="content-list">
+                                    <div class="item review">22 <span class="v-desc">мест</span> <span class="v-mobile">мест</span></div>
+                                    <div class="item landscape">56 <span class="v-desc">фото</span> <span class="v-mobile">фото</span></div>
+                                </div>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Подробнее</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <div class="informer-link open-share">Поделиться в соцсетях</div>
+                                        <div class="share-wrapp type2">
+                                            <div class="share-cell">
+                                                <div class="share-title">
+                                                    поделиться
+                                                </div>
+                                                <a href="#" class="item fb"><img src="img/facebook2.svg" alt=""></a>
+                                                <a href="#" class="item vk"><img src="img/vk-social-network-logo2.svg" alt=""></a>
+                                                <a href="#" class="item in"><img src="img/instagram2.svg" alt=""></a>
+                                                <a href="#" class="item tw"><img src="img/twitter-logo-silhouette2.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shortcode-type6">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type6-img10.jpg);"></div>
+                            </a>
+                            <div class="content-info">
+                                <a href="#" class="title">
+                                    Лучшие места для экотуризма
+                                </a>
+                                <div class="content-list">
+                                    <div class="item review">36 <span class="v-desc">мест</span> <span class="v-mobile">мест</span></div>
+                                    <div class="item landscape">72 <span class="v-desc">фото</span> <span class="v-mobile">фото</span></div>
+                                </div>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Подробнее</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <div class="informer-link open-share">Поделиться в соцсетях</div>
+                                        <div class="share-wrapp type2">
+                                            <div class="share-cell">
+                                                <div class="share-title">
+                                                    поделиться
+                                                </div>
+                                                <a href="#" class="item fb"><img src="img/facebook2.svg" alt=""></a>
+                                                <a href="#" class="item vk"><img src="img/vk-social-network-logo2.svg" alt=""></a>
+                                                <a href="#" class="item in"><img src="img/instagram2.svg" alt=""></a>
+                                                <a href="#" class="item tw"><img src="img/twitter-logo-silhouette2.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shortcode-type6">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type6-img5.jpg);"></div>
+                            </a>
+                            <div class="content-info">
+                                <a href="#" class="title">
+                                    Лучшие виды для instagram блоггеров
+                                </a>
+                                <div class="content-list">
+                                    <div class="item review">22 <span class="v-desc">мест</span> <span class="v-mobile">мест</span></div>
+                                    <div class="item landscape">56 <span class="v-desc">фото</span> <span class="v-mobile">фото</span></div>
+                                </div>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Подробнее</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <div class="informer-link open-share">Поделиться в соцсетях</div>
+                                        <div class="share-wrapp type2">
+                                            <div class="share-cell">
+                                                <div class="share-title">
+                                                    поделиться
+                                                </div>
+                                                <a href="#" class="item fb"><img src="img/facebook2.svg" alt=""></a>
+                                                <a href="#" class="item vk"><img src="img/vk-social-network-logo2.svg" alt=""></a>
+                                                <a href="#" class="item in"><img src="img/instagram2.svg" alt=""></a>
+                                                <a href="#" class="item tw"><img src="img/twitter-logo-silhouette2.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shortcode-type6">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type6-img6.jpg);"></div>
+                            </a>
+                            <div class="content-info">
+                                <a href="#" class="title">
+                                    Лучшие достопримечательности Рима
+                                </a>
+                                <div class="content-list">
+                                    <div class="item review">36 <span class="v-desc">мест</span> <span class="v-mobile">мест</span></div>
+                                    <div class="item landscape">72 <span class="v-desc">фото</span> <span class="v-mobile">фото</span></div>
+                                </div>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Подробнее</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <div class="informer-link open-share">Поделиться в соцсетях</div>
+                                        <div class="share-wrapp type2">
+                                            <div class="share-cell">
+                                                <div class="share-title">
+                                                    поделиться
+                                                </div>
+                                                <a href="#" class="item fb"><img src="img/facebook2.svg" alt=""></a>
+                                                <a href="#" class="item vk"><img src="img/vk-social-network-logo2.svg" alt=""></a>
+                                                <a href="#" class="item in"><img src="img/instagram2.svg" alt=""></a>
+                                                <a href="#" class="item tw"><img src="img/twitter-logo-silhouette2.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space"></div>
+                </div>                
+
+            </div>
+        </div>
+        
+        <div class="map-wrapper">
+            <div class="map-info-wrapp">
+                <div class="title">
+                    поделиться
+                </div>
+                <div class="share-wrapp">
+                    <a href="#"><img src="img/facebook.svg" alt=""></a>
+                    <a href="#"><img src="img/twitter-logo-silhouette.svg" alt=""></a>
+                    <a href="#"><img src="img/vk-social-network-logo.svg" alt=""></a>
+                    <a href="#"><img src="img/instagram.svg" alt=""></a>
+                </div>
+                <a href="#" class="link-info">Изранное</a>
+                <a href="#" class="link-info">Партнерство и реклама</a>
+            </div>
+            <div class="map-toggle-button">
+                
+            </div>  
+            <div id="map" data-zoom="6"
+                 data-lat="48.2208286"
+                 data-lng="16.2399774"
+                 data-img-cluster="img/cluster.png"
+                 data-img-country="img/map-point-country.png"
+                 data-img-city="img/map-point-city.png"
+                 data-img-place="img/map-point-place.png"
+                 data-img-simple="img/simple-marker.png"></div>
+        </div>
+    </div>
+    
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/snazzy-info-window.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/jquery.sumoselect.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrWW3DTbEh8pKQtWigNHrI_XoYub5y-gQ&libraries=places&language=en"></script>
+    <script src="js/snazzy-info-window.min.js"></script>
+    <script src="js/markerclusterer.min.js"></script>
+    <script src="js/map.js"></script>
+
+</body>
+</html>

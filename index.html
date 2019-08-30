@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style-small.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>GeoMeridian</title>
+</head>
+<body>
+
+    <div id="loader-wrapper"></div>
+
+    <div class="main-wrapper">
+
+        <div id="resizable" class="main-content-wrapper side-bar-none-transition">
+            <header>
+                <div class="top-header">
+                    <a href="#" id="logo">
+                        <img src="img/logo-image.png" alt="" />
+                    </a>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="toggle-block">
+                        <div class="language-wrap">
+                            <a href="#" class="active">Ру</a>
+                            <a href="#">En</a>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">О проекте</a></li>
+                                <li><a href="#">Помощь</a></li>
+                                <li><a href="#">Партнерство и реклама</a></li>
+                                <li><a href="#">В избраное</a></li>
+                            </ul>
+                        </nav>
+                        <div class="social-wrapper">
+                            <a href="#"><img src="img/facebook.svg" alt="" /></a>
+                            <a href="#"><img src="img/twitter-logo-silhouette.svg" alt="" /></a>
+                            <a href="#"><img src="img/vk-social-network-logo.svg" alt="" /></a>
+                            <a href="#"><img src="img/instagram.svg" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="search-wrapper">
+                <div class="input-wrapper">
+                    <input id="tags" type="text" name="" placeholder="Куда хотите поехать?">
+                    <div class="search-info-example">
+                        <p>Попробуйте ввести свой первый поисковой запрос прямо сейчас!</p>
+                        <div class="empty-lg-25 empty-xs-15"></div>
+                        <p>Вы можете искать по:</p>
+                        <ul>
+                            <li>страны</li>
+                            <li>города</li>
+                            <li>достопримечательности</li>
+                            <li>маршруты</li>
+                            <li>темы</li>
+                        </ul>
+                    </div>
+                    <div class="search-info-error">
+                        <div class="title">
+                            К сожалению, ничего не найдено :-(
+                        </div>
+                        <div class="empty-lg-25 empty-xs-15"></div>
+                        <p>Попробуйте:</p>
+                        <ul>
+                            <li>проверить, нет ли ошибок в запросе</li>
+                            <li>переформулировать запрос</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="close-button"></div>
+
+            <div class="content-ajax">
+
+                <div class="content custom-scroll-bar">
+                    <div class="space"></div>
+
+                    <div class="section-wrapper">
+                        <div class="section">
+                            <h1 class="h2">Путишествие по Европе</h1>
+                            <div class="space-s"></div>
+                            <a href="#" class="shortcode-type3">
+                                <p>Часть света в Северном полушарии Земли, омывается морями Северного Ледовитого и Атлантического океанов, имеет площадь около 10 млн км² и население примерно (на 2017 г.) 745,8 млн человек (порядка 10 % населения Земли). Вместе с Азией образует материк Евразия.</p>
+                                <span class="link"><span></span></span>
+                            </a>
+                            <div class="space-m"></div>
+                        </div>
+
+                        <div class="swiper-main-wrapper swiper-11 animation-effect">
+                            <div class="swiper-container" data-space="10" data-slides-per-view="auto" data-free-mode="1" >
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type1">
+                                            <div class="bg" style="background-image: url(img/shortcode-type1-img1.jpg);"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type1">
+                                            <div class="bg" style="background-image: url(img/shortcode-type1-img2.jpg);"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type1">
+                                            <div class="bg" style="background-image: url(img/shortcode-type1-img3.jpg);"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type1">
+                                            <div class="bg" style="background-image: url(img/shortcode-type1-img2.jpg);"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type1">
+                                            <div class="bg" style="background-image: url(img/shortcode-type1-img1.jpg);"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type1">
+                                            <div class="bg" style="background-image: url(img/shortcode-type1-img2.jpg);"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type1">
+                                            <div class="bg" style="background-image: url(img/shortcode-type1-img3.jpg);"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type1">
+                                            <div class="bg" style="background-image: url(img/shortcode-type1-img2.jpg);"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+
+                    <div class="section-wrapper">
+                        <div class="section">
+                            <div class="section-title">
+                                <div class="h3">
+                                    Страны
+                                </div>
+                                <a href="#" class="button">
+                                    Смотреть все (<span>6</span>)
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-main-wrapper animation-effect">
+                            <div class="swiper-container" data-space="10" data-free-mode="1" data-breakpoints="1" data-slides-per-view="4.6" data-lg-slides="3.7" data-md-slides="4.5" data-sm-slides="2.9" data-xs-slides="2.3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5 mapFilter country" data-filter-url="country-ajax.html" data-filter-country="France" data-filter-type="country">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img1.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>13</span>
+                                            </div>
+                                            <div class="title">
+                                                Франция
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img2.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>3</span>
+                                            </div>
+                                            <div class="title">
+                                                Германия
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img3.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>8</span>
+                                            </div>
+                                            <div class="title">
+                                                Россия
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img4.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>4</span>
+                                            </div>
+                                            <div class="title">
+                                                Украина
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img5.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>13</span>
+                                            </div>
+                                            <div class="title">
+                                                Италия
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5 mapFilter country" data-filter-url="country-ajax.html" data-filter-country="France" data-filter-type="country">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img1.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>13</span>
+                                            </div>
+                                            <div class="title">
+                                                Франция
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img2.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>3</span>
+                                            </div>
+                                            <div class="title">
+                                                Германия
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img3.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>8</span>
+                                            </div>
+                                            <div class="title">
+                                                Россия
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img4.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>4</span>
+                                            </div>
+                                            <div class="title">
+                                                Украина
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img5.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>13</span>
+                                            </div>
+                                            <div class="title">
+                                                Италия
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+
+                    <div class="section-wrapper">
+                        <div class="section">
+                            <a href="#" class="shortcode-type4 closestPlaces" data-search-radius="5000">
+                                <span>
+                                    что рядом?
+                                </span>
+                                <div class="button">
+                                    Посмотреть ближайшие места
+                                </div>
+                                <div class="bg" style="background-image: url('img/mask-image.png');"></div>
+                            </a>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+
+                    <div class="section-wrapper">
+                        <div class="section">
+                            <div class="section-title">
+                                <div class="h3">
+                                    Интересные темы
+                                </div>
+                                <a href="#" class="button">
+                                    Смотреть все (<span>29</span>)
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-main-wrapper animation-effect">
+                            <div class="swiper-container" data-space="10" data-free-mode="1" data-breakpoints="1" data-slides-per-view="4.6" data-lg-slides="3.7" data-md-slides="4.5" data-sm-slides="2.9" data-xs-slides="2.3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img6.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>52</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №1
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img7.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>16</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №2
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img8.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>27</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №3
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img9.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>30</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №4
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img10.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>24</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №5
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img6.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>52</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №6
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img7.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>16</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №7
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img8.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>27</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №8
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img9.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>30</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №9
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="shortcode-type5">
+                                            <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img10.jpg);"></div>
+                                            <div class="star-wrapper">
+                                                <img src="img/review-star.svg" alt="" />
+                                                <span>24</span>
+                                            </div>
+                                            <div class="title">
+                                                Подборка точек по стране №10
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+
+                    <div>
+                        
+                        <div class="section">
+                            <div class="section-title">
+                                <div class="h3">
+                                    Топ маршрутов
+                                </div>
+                                <a href="#" class="button">
+                                    Смотреть все (<span>13</span>)
+                                </a>
+                            </div>
+                            <div class="shortcode-type2">
+                                <a href="#" class="image">
+                                    <div class="bg" style="background-image: url(img/shortcode-type2-img1.jpg);"></div>
+                                </a>
+                                <div class="info-wrapp">
+                                    <div class="title-wrapp">
+                                        <a href="#" class="title">Название маршрута по континету №1</a>
+                                        <p>краткая информация о маршруте несколько слов</p>
+                                    </div>
+                                    <ul>
+                                        <li>680 км</li>
+                                        <li>12 мест</li>
+                                        <li>5 дней</li>
+                                    </ul>
+                                </div>
+                                <div class="informer-wrapp">
+                                    <div class="informer-content">
+                                        <div class="informer-button">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <div class="informer">
+                                            <div class="informer-close-button"></div>
+                                            <a href="#" class="informer-link">Описание</a>
+                                            <a href="#" class="informer-link">Добавить маршрут</a>
+                                            <a href="#" class="informer-link">Добавить в избранное</a>
+                                            <a href="#" class="informer-link">Что рядом?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shortcode-type2">
+                                <a href="#" class="image">
+                                    <div class="bg" style="background-image: url(img/shortcode-type2-img2.jpg);"></div>
+                                </a>
+                                <div class="info-wrapp">
+                                    <div class="title-wrapp">
+                                        <a href="#" class="title">Название маршрута по континету №2</a>
+                                        <p>краткая информация о маршруте несколько слов</p>
+                                    </div>
+                                    <ul>
+                                        <li>960 км</li>
+                                        <li>9 мест</li>
+                                        <li>7 дней</li>
+                                    </ul>
+                                </div>
+                                <div class="informer-wrapp">
+                                    <div class="informer-content">
+                                        <div class="informer-button">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <div class="informer">
+                                            <div class="informer-close-button"></div>
+                                            <a href="#" class="informer-link">Описание</a>
+                                            <a href="#" class="informer-link">Добавить маршрут</a>
+                                            <a href="#" class="informer-link">Добавить в избранное</a>
+                                            <a href="#" class="informer-link">Что рядом?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shortcode-type2">
+                                <a href="#" class="image">
+                                    <div class="bg" style="background-image: url(img/shortcode-type2-img3.jpg);"></div>
+                                </a>
+                                <div class="info-wrapp">
+                                    <div class="title-wrapp">
+                                        <a href="#" class="title">Название маршрута по континету №3</a>
+                                        <p>краткая информация о маршруте несколько слов</p>
+                                    </div>
+                                    <ul>
+                                        <li>720 км</li>
+                                        <li>15 мест</li>
+                                        <li>8 дней</li>
+                                    </ul>
+                                </div>
+                                <div class="informer-wrapp">
+                                    <div class="informer-content">
+                                        <div class="informer-button">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <div class="informer">
+                                            <div class="informer-close-button"></div>
+                                            <a href="#" class="informer-link">Описание</a>
+                                            <a href="#" class="informer-link">Добавить маршрут</a>
+                                            <a href="#" class="informer-link">Добавить в избранное</a>
+                                            <a href="#" class="informer-link">Что рядом?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="space"></div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="loader-ajax">
+                <img src="img/Spinner-1s-200px.gif" alt="" />
+            </div>
+        </div>
+
+        <div class="map-wrapper">
+            <div class="map-info-wrapp">
+                <div class="title">
+                    поделиться
+                </div>
+                <div class="share-wrapp">
+                    <a href="#"><img src="img/facebook.svg" alt=""></a>
+                    <a href="#"><img src="img/twitter-logo-silhouette.svg" alt=""></a>
+                    <a href="#"><img src="img/vk-social-network-logo.svg" alt=""></a>
+                    <a href="#"><img src="img/instagram.svg" alt=""></a>
+                </div>
+                <a href="#" class="link-info">Изранное</a>
+                <a href="#" class="link-info">Партнерство и реклама</a>
+            </div>
+            <div class="map-toggle-button">
+                
+            </div>  
+            <div id="map" data-zoom="6"
+                 data-lat="48.2208286"
+                 data-lng="16.2399774"
+                 data-img-cluster="img/cluster.png"
+                 data-img-country="img/map-point-country.png"
+                 data-img-city="img/map-point-city.png"
+                 data-img-place="img/map-point-place.png"
+                 data-img-simple="img/simple-marker.png"></div>
+        </div>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/snazzy-info-window.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/jquery.sumoselect.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrWW3DTbEh8pKQtWigNHrI_XoYub5y-gQ&libraries=places&language=en"></script>
+    <script src="js/snazzy-info-window.min.js"></script>
+    <script src="js/markerclusterer.min.js"></script>
+    <script src="js/map.js"></script>
+
+
+</body>
+</html>

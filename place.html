@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style-small.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>GeoMeridian</title>
+</head>
+<body>
+
+    <div id="loader-wrapper"></div>
+
+    <div class="main-wrapper">
+        <div id="resizable" class="main-content-wrapper side-bar-none-transition">
+            <header>
+                <div class="top-header">
+                    <a href="#" id="logo">
+                        <img src="img/logo-image.png" alt="" />
+                    </a>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="toggle-block">
+                        <div class="language-wrap">
+                            <a href="#" class="active">Ру</a>
+                            <a href="#">En</a>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">О проекте</a></li>
+                                <li><a href="#">Помощь</a></li>
+                                <li><a href="#">Партнерство и реклама</a></li>
+                                <li><a href="#">В избраное</a></li>
+                            </ul>
+                        </nav>
+                        <div class="social-wrapper">
+                            <a href="#"><img src="img/facebook.svg" alt="" /></a>
+                            <a href="#"><img src="img/twitter-logo-silhouette.svg" alt="" /></a>
+                            <a href="#"><img src="img/vk-social-network-logo.svg" alt="" /></a>
+                            <a href="#"><img src="img/instagram.svg" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="search-wrapper">
+                <div class="input-wrapper">
+                    <input id="tags" type="text" name="" placeholder="Куда хотите поехать?">
+                    <div class="search-info-example">
+                        <p>Попробуйте ввести свой первый поисковой запрос прямо сейчас!</p>
+                        <div class="empty-lg-25 empty-xs-15"></div>
+                        <p>Вы можете искать по:</p>
+                        <ul>
+                            <li>страны</li>
+                            <li>города</li>
+                            <li>достопримечательности</li>
+                            <li>маршруты</li>
+                            <li>темы</li>
+                        </ul>
+                    </div>
+                    <div class="search-info-error">
+                        <div class="title">
+                            К сожалению, ничего не найдено :-(
+                        </div>
+                        <div class="empty-lg-25 empty-xs-15"></div>
+                        <p>Попробуйте:</p>
+                        <ul>
+                            <li>проверить, нет ли ошибок в запросе</li>
+                            <li>переформулировать запрос</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="close-button"></div>
+
+            <div class="content custom-scroll-bar">
+                <div class="space"></div>
+
+                <div class="section-wrapper">
+                    <div class="section">
+                        <div class="block-title type2 text-left">
+                            <a href="#" class="link"><span></span></a>
+                            <div class="title">
+                                Московский кремль
+                            </div>
+                            <div class="desc">
+                                Москва, Россия, Центральный регион
+                            </div>
+                        </div>
+                        <div class="space-s"></div>
+                        <a href="#" class="shortcode-type3">
+                            <p>Крепость в центре Москвы и древнейшая её часть, главный общественно-политический и историко-художественный комплекс города, официальная резиденция Президента Российской Федерации. Расположен на высоком левом берегу Москвы-реки — Боровицком холме, при ...</p>
+                            <span class="link"><span></span></span>
+                        </a>
+                        <div class="space-m"></div>
+                    </div>
+
+                    <div class="swiper-main-wrapper animation-effect">
+                        <div class="swiper-container" data-space="10" data-free-mode="1" data-breakpoints="1" data-slides-per-view="2.7" data-lg-slides="1.9" data-md-slides="2.6" data-sm-slides="1.6" data-xs-slides="1.3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type1">
+                                        <div class="bg" style="background-image: url(img/shortcode-type1-img7.jpg);"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type1">
+                                        <div class="bg" style="background-image: url(img/shortcode-type1-img8.jpg);"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type1">
+                                        <div class="bg" style="background-image: url(img/shortcode-type1-img9.jpg);"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type1">
+                                        <div class="bg" style="background-image: url(img/shortcode-type1-img3.jpg);"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="empty-lg-20"></div>
+                        <div class="favorite-wrapp">
+                            <a href="#" class="button">
+                                добавить в маршрут
+                            </a>
+                            <div class="icon">
+                                <svg width="511.63px" height="511.63px" enable-background="new 0 0 511.626 511.626" version="1.1" viewBox="0 0 511.626 511.626" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m475.37 71.949c-24.175-23.606-57.575-35.404-100.22-35.404-11.8 0-23.843 2.046-36.117 6.136-12.279 4.093-23.702 9.615-34.256 16.562-10.568 6.945-19.65 13.467-27.269 19.556-7.61 6.091-14.845 12.564-21.696 19.414-6.854-6.85-14.087-13.323-21.698-19.414-7.616-6.089-16.702-12.607-27.268-19.556-10.564-6.95-21.985-12.468-34.261-16.562-12.275-4.089-24.316-6.136-36.116-6.136-42.637 0-76.039 11.801-100.21 35.404-24.172 23.601-36.259 56.337-36.259 98.211 0 12.753 2.24 25.891 6.711 39.398 4.471 13.514 9.566 25.031 15.275 34.546 5.708 9.514 12.181 18.792 19.414 27.834 7.233 9.041 12.519 15.272 15.846 18.698 3.33 3.426 5.948 5.903 7.851 7.427l178.15 171.88c3.427 3.426 7.614 5.144 12.562 5.144s9.138-1.718 12.563-5.144l177.87-171.31c43.588-43.58 65.38-86.406 65.38-128.47 1e-3 -41.877-12.085-74.61-36.259-98.207zm-53.961 199.85l-165.59 159.6-165.88-159.88c-35.594-35.585-53.388-69.374-53.388-101.35 0-15.415 2.046-29.026 6.136-40.824 4.093-11.8 9.327-21.177 15.703-28.124 6.377-6.949 14.132-12.607 23.268-16.988 9.141-4.377 18.086-7.328 26.84-8.85 8.754-1.52 18.079-2.281 27.978-2.281 9.896 0 20.557 2.424 31.977 7.279 11.418 4.853 21.934 10.944 31.545 18.271 9.613 7.332 17.845 14.183 24.7 20.557 6.851 6.38 12.559 12.229 17.128 17.559 3.424 4.189 8.091 6.283 13.989 6.283 5.9 0 10.562-2.094 13.99-6.283 4.568-5.33 10.28-11.182 17.131-17.559 6.852-6.374 15.085-13.222 24.694-20.557 9.613-7.327 20.129-13.418 31.553-18.271 11.416-4.854 22.08-7.279 31.977-7.279s19.219 0.761 27.977 2.281c8.757 1.521 17.702 4.473 26.84 8.85 9.137 4.38 16.892 10.042 23.267 16.988 6.376 6.947 11.612 16.324 15.705 28.124 4.086 11.798 6.132 25.409 6.132 40.824-2e-3 31.977-17.89 65.86-53.675 101.64z"></path>
+                                </svg>
+                            </div>
+                        </div>                
+                    </div>
+
+                    <div class="space"></div>
+                </div>
+
+                <div class="section-wrapper">
+                    <div class="section">
+                        <div class="shortcode-type8">
+                            <div class="custom-row">
+                                <div class="title">
+                                    420094, Москва, ул. Пушкина, д. 6, корп. 3
+                                </div>
+                                <div class="desc">
+                                    Понедельник - Пятница, 08:00 - 20:00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space"></div>
+                </div>
+
+                <div class="section-wrapper">
+                    <div class="section">
+                        <div class="section-title">
+                            <div class="h3">
+                                Что внутри
+                            </div>
+                            <a href="#" class="button">
+                                Смотреть все (<span>29</span>)
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-main-wrapper animation-effect">
+                        <div class="swiper-container" data-space="10" data-free-mode="1" data-breakpoints="1" data-slides-per-view="4.6" data-lg-slides="3.7" data-md-slides="4.5" data-sm-slides="2.9" data-xs-slides="2.3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type5">
+                                        <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img11.jpg);"></div>
+                                        <div class="star-wrapper">
+                                            <img src="img/review-star.svg" alt="" />
+                                            <span>52</span>
+                                        </div>
+                                        <div class="title">
+                                            Подборка точек по локации №1
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type5">
+                                        <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img12.jpg);"></div>
+                                        <div class="star-wrapper">
+                                            <img src="img/review-star.svg" alt="" />
+                                            <span>16</span>
+                                        </div>
+                                        <div class="title">
+                                            Подборка точек по локации №2
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type5">
+                                        <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img13.jpg);"></div>
+                                        <div class="star-wrapper">
+                                            <img src="img/review-star.svg" alt="" />
+                                            <span>27</span>
+                                        </div>
+                                        <div class="title">
+                                            Подборка точек по локации №3
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type5">
+                                        <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img14.jpg);"></div>
+                                        <div class="star-wrapper">
+                                            <img src="img/review-star.svg" alt="" />
+                                            <span>30</span>
+                                        </div>
+                                        <div class="title">
+                                            Подборка точек по локации №4
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="shortcode-type5">
+                                        <div class="bg" style="background-image: url(img/shadow.png), url(img/shortcode-type5-img15.jpg);"></div>
+                                        <div class="star-wrapper">
+                                            <img src="img/review-star.svg" alt="" />
+                                            <span>24</span>
+                                        </div>
+                                        <div class="title">
+                                            Подборка точек по локации №5
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space"></div>
+                </div>                
+                
+                <div class="section-wrapper">
+                    <div class="section">
+                        <a href="#" class="shortcode-type4">
+                            <span>
+                                что рядом?
+                            </span>
+                            <div class="button">
+                                Посмотреть ближайшие места
+                            </div>
+                            <div class="bg" style="background-image: url('img/mask-image.png');"></div>
+                        </a>
+                    </div>
+
+                    <div class="space"></div>
+                </div>
+
+                <div class="section-wrapper">
+                    <div class="section">
+                        <div class="section-title">
+                            <div class="h3">
+                                Маршрути
+                            </div>
+                            <a href="#" class="button">
+                                Смотреть все (<span>13</span>)
+                            </a>
+                        </div>
+                        <div class="shortcode-type2">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type2-img4.jpg);"></div>
+                            </a>
+                            <div class="info-wrapp">
+                                <div class="title-wrapp">
+                                    <a href="#" class="title">Название маршрута по континету №1</a>
+                                    <p>краткая информация о маршруте несколько слов</p>
+                                </div>
+                                <ul>
+                                    <li>680 км</li>
+                                    <li>12 мест</li>
+                                    <li>5 дней</li>
+                                </ul>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Описание</a>
+                                        <a href="#" class="informer-link">Добавить маршрут</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <a href="#" class="informer-link">Что рядом?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shortcode-type2">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type2-img5.jpg);"></div>
+                            </a>
+                            <div class="info-wrapp">
+                                <div class="title-wrapp">
+                                    <a href="#" class="title">Название маршрута по континету №2</a>
+                                    <p>краткая информация о маршруте несколько слов</p>
+                                </div>
+                                <ul>
+                                    <li>960 км</li>
+                                    <li>9 мест</li>
+                                    <li>7 дней</li>
+                                </ul>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Описание</a>
+                                        <a href="#" class="informer-link">Добавить маршрут</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <a href="#" class="informer-link">Что рядом?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shortcode-type2">
+                            <a href="#" class="image">
+                                <div class="bg" style="background-image: url(img/shortcode-type2-img6.jpg);"></div>
+                            </a>
+                            <div class="info-wrapp">
+                                <div class="title-wrapp">
+                                    <a href="#" class="title">Название маршрута по континету №3</a>
+                                    <p>краткая информация о маршруте несколько слов</p>
+                                </div>
+                                <ul>
+                                    <li>720 км</li>
+                                    <li>15 мест</li>
+                                    <li>8 дней</li>
+                                </ul>
+                            </div>
+                            <div class="informer-wrapp">
+                                <div class="informer-content">
+                                    <div class="informer-button">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="informer">
+                                        <div class="informer-close-button"></div>
+                                        <a href="#" class="informer-link">Описание</a>
+                                        <a href="#" class="informer-link">Добавить маршрут</a>
+                                        <a href="#" class="informer-link">Добавить в избранное</a>
+                                        <a href="#" class="informer-link">Что рядом?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="map-wrapper">
+            <div class="map-info-wrapp">
+                <div class="title">
+                    поделиться
+                </div>
+                <div class="share-wrapp">
+                    <a href="#"><img src="img/facebook.svg" alt=""></a>
+                    <a href="#"><img src="img/twitter-logo-silhouette.svg" alt=""></a>
+                    <a href="#"><img src="img/vk-social-network-logo.svg" alt=""></a>
+                    <a href="#"><img src="img/instagram.svg" alt=""></a>
+                </div>
+                <a href="#" class="link-info">Изранное</a>
+                <a href="#" class="link-info">Партнерство и реклама</a>
+            </div>
+            <div class="map-toggle-button">
+                
+            </div>  
+            <div id="map" data-zoom="6"
+                 data-lat="48.2208286"
+                 data-lng="16.2399774"
+                 data-img-cluster="img/cluster.png"
+                 data-img-country="img/map-point-country.png"
+                 data-img-city="img/map-point-city.png"
+                 data-img-place="img/map-point-place.png"
+                 data-img-simple="img/simple-marker.png"></div>
+        </div>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/snazzy-info-window.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/jquery.sumoselect.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrWW3DTbEh8pKQtWigNHrI_XoYub5y-gQ&libraries=places&language=en"></script>
+    <script src="js/snazzy-info-window.min.js"></script>
+    <script src="js/markerclusterer.min.js"></script>
+    <script src="js/map.js"></script>
+
+</body>
+</html>
